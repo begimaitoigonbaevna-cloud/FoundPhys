@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Harmonic Oscillations (EN)
+title: Harmonic Oscillations
+lang: en
+ru: /FoundPhys/theory/harmonic.html
 ---
 
 # Harmonic Oscillations
