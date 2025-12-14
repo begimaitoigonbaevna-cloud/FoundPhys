@@ -1,38 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/FoundPhys/assets/style.css">
-</head>
-<body>
+<!-- TOP BAR -->
+<div class="top-bar">
+  <div class="logo">FoundPhys</div>
 
-  <!-- TOP BAR -->
-  <div class="top-bar">
-    <div class="logo">FoundPhys</div>
-
-    <div class="menu">
-      <a href="/FoundPhys/">Home</a>
-      <a href="/FoundPhys/theory/harmonic.html">Theory</a>
-    </div>
-
-    <div class="lang-switch">
-      {% if page.lang == "ru" %}
-        <a href="{{ page.en }}">EN</a>
-      {% else %}
-        <a href="{{ page.ru }}">RU</a>
-      {% endif %}
-    </div>
+  <div class="menu">
+    <a href="/FoundPhys/">Home</a>
+    <a href="/FoundPhys/index.html">Harmonic Oscillations</a>
   </div>
 
-  <!-- CONTENT -->
-  <div class="content">
-    {{ content }}
+  <div class="lang-switch">
+    {% if page.lang == "ru" %}
+      <a href="/FoundPhys/index-en.html">EN</a>
+    {% else %}
+      <a href="/FoundPhys/index.html">RU</a>
+    {% endif %}
   </div>
-
-  <div class="footer">
-    © 2025 FoundPhys
-  </div>
-
-</body>
-</html>
+</div>
