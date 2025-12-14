@@ -1,16 +1,42 @@
----
-layout: default
-title: Foundations of Physics
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoundPhys — Foundations of Physics</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <h1>FoundPhys</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="pages/harmonics.html">Harmonic Oscillations</a>
+      <a href="pages/waves.html">Waves</a>
+      <a href="pages/mechanics.html">Classical Mechanics</a>
+    </nav>
+  </header>
 
-# Foundations of Physics
+  <main>
+    <section>
+      <h2>Welcome to Foundations of Physics</h2>
+      <p>This website is your guide to the basics of physics. Start with any topic above.</p>
+    </section>
 
-Welcome to **FoundPhys** — an educational physics project focused on clear explanations of fundamental physical phenomena.
+    <section>
+      <h3>Topics Overview</h3>
+      <ul>
+        <li>Harmonic Oscillations</li>
+        <li>Waves</li>
+        <li>Classical Mechanics</li>
+      </ul>
+    </section>
+  </main>
 
-## Topics
-- Harmonic Oscillations
-- Waves
-- Classical Mechanics
-- Foundations of Modern Physics
+  <footer>
+    <p>© 2025 FoundPhys</p>
+  </footer>
 
-This project is continuously updated as part of an academic portfolio.
+  <script src="assets/script.js"></script>
+</body>
+</html>
