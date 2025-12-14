@@ -6,36 +6,51 @@ title: Harmonic Oscillations (EN)
 # Harmonic Oscillations
 
 ## 📌 Definition
-Harmonic oscillations are periodic motions in which the restoring force is proportional to the displacement from the equilibrium.
+Harmonic oscillations are periodic motions in which the restoring force is proportional to the displacement from the equilibrium position and directed toward it.
 
-## 📐 Physical Model
-Consider a mass \( m \) attached to a spring of stiffness \( k \).  
-The restoring force is:
-\[
+---
+
+## ⚙️ Physical Model
+Consider a mass \( m \) attached to a spring with stiffness \( k \).
+
+The restoring force is given by Hooke’s law:
+
+$$
 F = -kx
-\]
+$$
 
-By Newton’s second law:
-\[
-m\frac{d^2x}{dt^2} + kx = 0
-\]
+According to Newton’s second law:
 
-This equation describes **simple harmonic motion**.
+$$
+m \frac{d^2 x}{dt^2} + kx = 0
+$$
 
-## 🔢 Solution
-The general solution is:
-\[
+This differential equation describes **simple harmonic motion**.
+
+---
+
+## 🧮 Solution
+The general solution of the equation is:
+
+$$
 x(t) = A \cos(\omega t + \phi)
-\]
-where:
-- \(A\) — amplitude  
-- \(\omega = \sqrt{\frac{k}{m}}\) — angular frequency  
-- \(\phi\) — phase
+$$
 
-The **period** is:
-\[
+where:
+- \( A \) — amplitude  
+- \( \omega = \sqrt{\frac{k}{m}} \) — angular frequency  
+- \( \phi \) — phase constant  
+
+---
+
+## ⏱ Period of Oscillation
+The period of harmonic oscillations is:
+
+$$
 T = 2\pi \sqrt{\frac{m}{k}}
-\]
+$$
+
+---
 
 ## 🔍 Reflection
-Simple harmonic motion is the foundation of waves, oscillations, and many physical systems.
+Simple harmonic motion is fundamental in physics and appears in waves, mechanical systems, electrical circuits, and quantum mechanics.
