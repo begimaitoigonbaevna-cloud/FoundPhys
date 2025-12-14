@@ -1,46 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang }}">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }} | FoundPhys</title>
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/style.css">
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
-
-  <!-- MathJax -->
-  <script>
-    MathJax = {
-      tex: { inlineMath: [['\\(','\\)']], displayMath: [['$$','$$']] }
-    };
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <!-- MathJax для рендера LaTeX -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js" id="MathJax-script"></script>
 </head>
-
 <body>
+  <!-- Навигация -->
+  <header>
+    <nav>
+      <a href="/ru/">Русский</a> | <a href="/en/">English</a>
+    </nav>
+  </header>
 
-<header class="top-bar">
-  <div class="logo">FoundPhys</div>
+  <!-- Контент страницы -->
+  <main>
+    {{ content }}
+  </main>
 
-  <nav class="menu">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/en/harmonic' | relative_url }}">Harmonics</a>
-  </nav>
-
-  <div class="lang-switch">
-    <a href="/FoundPhys/en/harmonic">EN</a> |
-    <a href="/FoundPhys/ru/harmonic">RU</a>
-  </div>
-</header>
-
-<main class="content">
-  {{ content }}
-</main>
-
-<footer class="footer">
-  © 2025 FoundPhys — Educational Physics Project
-</footer>
-
+  <!-- Подвал -->
+  <footer>
+    <p>&copy; 2025 Беку. Все права защищены.</p>
+  </footer>
 </body>
 </html>
