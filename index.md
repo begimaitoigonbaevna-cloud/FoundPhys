@@ -1,3 +1,11 @@
+---
+title: Home
+---
+
+🌐 **Language:**  
+[English](en/harmonic.md) | [Русский](ru/harmonic.md)
+
+---
 # FoundPhys
 
 **Personal Educational Physics Project**
