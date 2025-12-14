@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Гармонические колебания
+title: FoundPhys — Главная
 lang: ru
-en: /FoundPhys/theory/harmonic-en.html
+en: /FoundPhys/index-en.html
 ---
 
 # Гармонические колебания
