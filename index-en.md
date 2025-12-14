@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Harmonic Oscillations
+title: FoundPhys — Home
 lang: en
-ru: /FoundPhys/theory/harmonic.html
+ru: /FoundPhys/index.html
 ---
 
 # Harmonic Oscillations
