@@ -3,6 +3,9 @@
 **Personal Educational Physics Project**
 
 ---
+🌐 Language:
+[English](en/harmonic.md) | [Русский](ru/harmonic.md)
+
 
 ## About the Project
 FoundPhys is an independent educational project created to document and explain fundamental concepts in physics.  
