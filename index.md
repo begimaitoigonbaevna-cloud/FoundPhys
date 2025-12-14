@@ -13,10 +13,6 @@ The website is regularly updated and reflects a structured approach to learning 
 
 ---
 
-## Languages
-🔹 [English version](en/harmonic.md)  
-🔹 [Русская версия](ru/harmonic.md)
-
 ---
 
 ## First Topic
