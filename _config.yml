@@ -1,0 +1,8 @@
+title: FoundPhys
+description: Personal Educational Physics Project
+theme: minima
+
+header_pages:
+  - index.md
+  - en/harmonic.md
+  - ru/harmonic.md
