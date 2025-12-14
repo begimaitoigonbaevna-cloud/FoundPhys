@@ -1,14 +1,16 @@
 ---
 layout: default
 title: FoundPhys — Foundations of Physics
-lang: en
-ru: /FoundPhys/index.html
 ---
 
 # Welcome to FoundPhys
 
-FoundPhys is an educational project dedicated to fundamental concepts of physics. Here you will find clear explanations of various topics, from classical mechanics to modern theories, as well as interactive materials and example problems.
+FoundPhys is an educational project dedicated to the fundamental concepts of physics. Our mission is to make physics simple, clear, and interesting for students and anyone curious about science.
 
-Our goal is to make physics accessible to everyone, regardless of experience or level.
+On this site, you will find:
+- Clear explanations of physics topics from classical mechanics to modern physics.
+- Real-life examples to understand physical laws in practice.
+- Formulas, illustrations, and simple exercises for self-study.
+- Interactive examples to visualize physical phenomena.
 
-[Read in Russian](ru/index.md)
+[Read in Russian](../index.md)
