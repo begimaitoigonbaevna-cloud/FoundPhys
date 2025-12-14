@@ -1,34 +1,16 @@
 ---
-title: Home
+layout: default
+title: Foundations of Physics
 ---
 
-🌐 **Language:**  
-[English](en/harmonic.md) | [Русский](ru/harmonic.md)
+# Foundations of Physics
 
----
-# FoundPhys
+Welcome to **FoundPhys** — an educational physics project focused on clear explanations of fundamental physical phenomena.
 
-**Personal Educational Physics Project**
+## Topics
+- Harmonic Oscillations
+- Waves
+- Classical Mechanics
+- Foundations of Modern Physics
 
----
-
-## About the Project
-FoundPhys is an independent educational project created to document and explain fundamental concepts in physics.  
-The website is regularly updated and reflects a structured approach to learning physics through theory, examples, and reflections.
-
----
-
-## Languages
-🔹 [English version](en/harmonic.md)  
-🔹 [Русская версия](ru/harmonic.md)
-
----
-
-## First Topic
-**Harmonic Oscillations**  
-A fundamental topic in classical mechanics that demonstrates the connection between physical laws and mathematical models.
-
----
-
-## Purpose
-This project is part of my academic development and represents my independent work and long-term interest in physics.
+This project is continuously updated as part of an academic portfolio.
