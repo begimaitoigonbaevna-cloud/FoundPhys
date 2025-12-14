@@ -1,42 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FoundPhys — Foundations of Physics</title>
-  <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-  <header>
-    <h1>FoundPhys</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="pages/harmonics.html">Harmonic Oscillations</a>
-      <a href="pages/waves.html">Waves</a>
-      <a href="pages/mechanics.html">Classical Mechanics</a>
-    </nav>
-  </header>
+---
+layout: default
+title: Foundations of Physics
+---
 
-  <main>
-    <section>
-      <h2>Welcome to Foundations of Physics</h2>
-      <p>This website is your guide to the basics of physics. Start with any topic above.</p>
-    </section>
+# Welcome to FoundPhys
 
-    <section>
-      <h3>Topics Overview</h3>
-      <ul>
-        <li>Harmonic Oscillations</li>
-        <li>Waves</li>
-        <li>Classical Mechanics</li>
-      </ul>
-    </section>
-  </main>
+This website is your guide to the **foundations of physics**.  
+Explore the topics below to start learning:
 
-  <footer>
-    <p>© 2025 FoundPhys</p>
-  </footer>
+## Topics
 
-  <script src="assets/script.js"></script>
-</body>
-</html>
+- [Harmonic Oscillations](pages/harmonics.html)
+- [Waves](pages/waves.html)
+- [Classical Mechanics](pages/mechanics.html)
+
+---
+
+## About this Project
+
+FoundPhys is designed to help students understand **key physics concepts** with text explanations, formulas, and **interactive examples**.  
+
+We aim to combine theory with practice, making physics **fun and visual**.
