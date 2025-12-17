@@ -13,4 +13,3 @@ Electrodynamics studies electric and magnetic fields and their interaction with 
 - Magnetic fields and electromagnetic induction
 - Applications: motors, generators, electronics
 
-[Back to Home](../index.md) | [Read in Russian](../ru/electrodynamics.md)
