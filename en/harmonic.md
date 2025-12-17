@@ -29,4 +29,4 @@ Harmonic oscillations are repetitive motions around an equilibrium position, whe
 - Oscillations of bridges, elevators, and buildings
 - Molecular vibrations in solids
 
-[Back to Home](../index.md) | [Read in Russian](../ru/harmonic.md)
+
