@@ -1,6 +1,14 @@
 title: FoundPhys
 description: Personal Educational Physics Project
 theme: minima
+baseurl: "/FoundPhys"
+url: "https://begimaitoigonbaevna-cloud.github.io"
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+theme: null
 
 header_pages:
   - index.md
