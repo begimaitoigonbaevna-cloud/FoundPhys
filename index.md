@@ -3,8 +3,6 @@
 **Personal Educational Physics Project**
 
 ---
-🌐 Language:
-[English](en/harmonic.md) | [Русский](ru/harmonic.md)
 
 
 ## About the Project
