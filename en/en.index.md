@@ -12,3 +12,36 @@ On this site, you will find:
 - Real-life examples to understand physical laws in practice.
 - Formulas, illustrations, and simple exercises for self-study.
 - Interactive examples to visualize physical phenomena.
+- ---
+
+
+---
+
+## 📘 Topics
+
+### 🔹 Harmonic Oscillations
+Study periodic motion, restoring forces, and oscillatory systems.
+
+[Read →](harmonic)
+
+---
+
+### 🔹 Classical Mechanics
+Foundations of motion, forces, and Newtonian dynamics.
+
+[Read →](mechanics)
+
+---
+
+### 🔹 Electrodynamics
+Electric fields, magnetic fields, and Maxwell’s equations.
+
+[Read →](electrodynamics)
+
+---
+
+### 🔹 Thermodynamics
+Energy, heat, entropy, and physical laws of macroscopic systems.
+
+[Read →](thermodynamics)
+
