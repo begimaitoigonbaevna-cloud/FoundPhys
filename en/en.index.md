@@ -12,5 +12,3 @@ On this site, you will find:
 - Real-life examples to understand physical laws in practice.
 - Formulas, illustrations, and simple exercises for self-study.
 - Interactive examples to visualize physical phenomena.
-
-[Read in Russian](../index.md)
