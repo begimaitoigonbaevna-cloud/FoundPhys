@@ -12,5 +12,3 @@ Mechanics studies the motion of bodies and the forces that cause this motion. It
 - Momentum and energy
 - Newton’s laws of motion
 - Work and power
-
-[Back to Home](../index.md) | [Read in Russian](../ru/mechanics.md)
