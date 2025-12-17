@@ -13,4 +13,4 @@ title: Механика
 - Законы Ньютона
 - Работа и мощность
 
-[На главную](../index.md) | [Read in English](../en/mechanics.md)
+
