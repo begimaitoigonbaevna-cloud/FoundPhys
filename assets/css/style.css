@@ -1,52 +1,91 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+:root {
+  --bg: #0b0f19;
+  --card: #121829;
+  --accent: #1da1f2;
+  --text: #e6e6e6;
+  --muted: #9aa4bf;
+}
+
+* {
   margin: 0;
-  font-family: "Segoe UI", Arial, sans-serif;
-  background: #0b0d17;
-  color: #ffffff;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-a {
-  color: #58a6ff;
-  text-decoration: none;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 32px;
-  background: #000000;
-  border-bottom: 1px solid #1f2937;
-}
-
-.logo {
-  font-size: 20px;
-  font-weight: 600;
-  margin-right: 40px;
-}
-
-.nav a {
-  margin-right: 24px;
-  font-size: 15px;
-}
-
-.lang {
-  margin-left: 16px;
-  font-size: 14px;
-}
-
-.content {
-  max-width: 900px;
-  margin: 60px auto;
-  padding: 0 20px;
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(180deg, #0b0f19, #060912);
+  color: var(--text);
   line-height: 1.7;
 }
 
-.footer {
-  text-align: center;
-  padding: 20px;
-  font-size: 13px;
-  color: #9ca3af;
-  border-top: 1px solid #1f2937;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 60px;
+  border-bottom: 1px solid #1f253d;
 }
 
+header h1 {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: var(--muted);
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+main {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+section {
+  background: var(--card);
+  padding: 40px;
+  border-radius: 16px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.4);
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: var(--text);
+  margin-bottom: 16px;
+}
+
+.formula {
+  background: #0b1022;
+  padding: 16px;
+  border-left: 4px solid var(--accent);
+  font-family: monospace;
+  margin: 20px 0;
+}
+
+footer {
+  text-align: center;
+  color: var(--muted);
+  padding: 40px 0;
+  font-size: 14px;
+}
