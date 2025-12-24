@@ -1,19 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang | default: 'en' }}">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }} | FoundPhys</title>
+  <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 
-  <!-- MathJax -->
   <script>
     MathJax = {
-      tex: {
-        inlineMath: [['\\(','\\)']],
-        displayMath: [['$$','$$']]
-      }
+      tex: { inlineMath: [['\\(','\\)']], displayMath: [['$$','$$']] }
     };
   </script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -22,19 +18,22 @@
 <body>
 
 <header class="header">
-  <div class="header-left">
-    <div class="logo">FoundPhys</div>
+  <div class="logo">FoundPhys</div>
 
-    <nav class="nav">
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/en/' | relative_url }}">Topics</a>
-      <a href="{{ '/en/harmonic' | relative_url }}">Harmonics</a>
-    </nav>
-  </div>
+  <nav class="nav">
+    <a href="{{ '/ru/' | relative_url }}">Home</a>
+    <a href="{{ '/ru/harmonic.html' | relative_url }}">Harmonics</a>
+    <a href="{{ '/ru/mechanics.html' | relative_url }}">Mechanics</a>
+    <a href="{{ '/ru/electrodynamics.html' | relative_url }}">Electrodynamics</a>
+    <a href="{{ '/ru/thermodynamics.html' | relative_url }}">Thermodynamics</a>
+  </nav>
 
-  <div class="header-right">
-    <a class="lang" href="{{ '/en/' | relative_url }}">EN</a>
-    <a class="lang" href="{{ '/ru/' | relative_url }}">RU</a>
+  <div class="lang">
+    {% if page.lang == "ru" %}
+      <a href="{{ page.url | replace:'/ru/','/en/' }}">EN</a>
+    {% else %}
+      <a href="{{ page.url | replace:'/en/','/ru/' }}">RU</a>
+    {% endif %}
   </div>
 </header>
 
@@ -43,10 +42,8 @@
 </main>
 
 <footer class="footer">
-  <p>© FoundPhys — Educational Physics Project</p>
+  © FoundPhys · Educational Physics Project
 </footer>
 
 </body>
 </html>
-
-
